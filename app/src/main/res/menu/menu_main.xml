@@ -1,0 +1,77 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jstyle.MainActivity">
+
+
+    <item
+        android:id="@+id/actionHome"
+        android:icon="@drawable/ic_icons8_home"
+        android:orderInCategory="1"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionOrder"
+        android:icon="@drawable/ic_smart_cart"
+        android:orderInCategory="2"
+        android:title="Your Order"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionWant"
+        android:icon="@drawable/ic_heart"
+        android:orderInCategory="3"
+        android:title="What you liked!"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionAccount"
+        android:icon="@drawable/ic_person_outline"
+        android:orderInCategory="4"
+        android:title="Account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionSetting"
+        android:icon="@drawable/ic_setting"
+        android:orderInCategory="5"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:orderInCategory="6"
+        android:title="Got Apparels to sell?">
+        <menu>
+            <item
+                android:id="@+id/actionMySell"
+                android:icon="@drawable/ic_speaker"
+                android:title="My listing" />
+            <item
+                android:id="@+id/actionSell"
+                android:icon="@drawable/ic_hanger"
+                android:title="Show what you got to sell" />
+
+        </menu>
+    </item>
+
+    <item
+        android:orderInCategory="6"
+        android:title="Help me improve the app">
+        <menu>
+            <item
+                android:id="@+id/actionRate"
+                android:title="Rate the app " />
+            <item
+                android:id="@+id/actionContact"
+                android:title="Contact me" />
+
+            <item
+                android:enabled="false"
+                android:title="" />
+            <item
+                android:enabled="false"
+                android:title="" />
+
+        </menu>
+    </item>
+
+
+</menu>

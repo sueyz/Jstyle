@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142504320186",
+    "firebase_url": "https://jstyle-4dd16.firebaseio.com",
+    "project_id": "jstyle-4dd16",
+    "storage_bucket": "jstyle-4dd16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142504320186:android:c80b7c19c9073fa84b7683",
+        "android_client_info": {
+          "package_name": "com.example.jstyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142504320186-nihgaa3615lj8hcmscf3kmqq3d3cjd91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8aLCr1wNIEFmOsYofHaVWfCZ_xfUjVTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142504320186-nihgaa3615lj8hcmscf3kmqq3d3cjd91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jstyle.MainActivity">
+
+    <item
+        android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_search_white"
+        android:orderInCategory="2"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/actionWant"
+        android:icon="@drawable/ic_heart"
+        android:orderInCategory="1"
+        android:title="What you liked!"
+        app:showAsAction="ifRoom" />
+
+</menu>
