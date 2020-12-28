@@ -1,12 +1,12 @@
 package com.example.jstyle
 
 //import air.com.my.bonuslink.member.BuildConfig
-//import air.com.my.bonuslink.util.FirebaseAnalyticsUtil
-import com.example.jstyle.util.SharedPreferencesUtil
+//import com.facebook.stetho.Stetho
 import android.app.Application
 import android.content.Context
-//import com.facebook.stetho.Stetho
-//import com.google.firebase.crashlytics.FirebaseCrashlytics
+import com.example.jstyle.util.FirebaseAnalyticsUtil
+import com.example.jstyle.util.SharedPreferencesUtil
+import com.jakewharton.threetenabp.AndroidThreeTen
 //import com.jakewharton.threetenabp.AndroidThreeTen
 //import tech.linjiang.pandora.Pandora
 
@@ -20,8 +20,8 @@ class MainApp : Application() {
         super.onCreate()
         appContext = applicationContext
         SharedPreferencesUtil.init(applicationContext)
-//        AndroidThreeTen.init(this) // to init timeZone info
-//        FirebaseAnalyticsUtil.init(applicationContext)
+        AndroidThreeTen.init(this) // to init timeZone info
+        FirebaseAnalyticsUtil.init(applicationContext)
 //        if (!BuildConfig.DEBUG) {
 //        enable this when is needed to debug the registration flow
 //        Pandora.get().disableShakeSwitch()
